@@ -2,8 +2,10 @@
 
 ## vue 기초 학습
 
-vue-cli / vue-form
+1. vue-cli
+2. vue-form
 
 ## vue 중급 학습
 
-vue-intermediate
+1. vue-intermediate
+2. vuex

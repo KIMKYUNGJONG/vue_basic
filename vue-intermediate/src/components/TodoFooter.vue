@@ -9,19 +9,20 @@
 </template>
 
 <script>
+  import { mapMutations } from 'vuex';
 export default {
   // js
   methods: {
-    clearTodo: function() {
-      this.$emit('crearAllItem');
-    }
+    ...mapMutations({clearTodo:'resetAllItem'})
+    // clearTodo() {
+    //   this.$store.commit('resetAllItem')
+    // }
   }
 }
 </script>
 
 <style scoped>
-  /* css */
-  
+
   .clearAllContainer {
     width: 8.5rem;
     height: 50px;
