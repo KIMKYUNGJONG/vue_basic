@@ -12,8 +12,8 @@
 export default {
   // js
   methods: {
-    clearAll: function() {
-      localStorage.clear();
+    clearTodo: function() {
+      this.$emit('crearAllItem');
     }
   }
 }
@@ -21,6 +21,7 @@ export default {
 
 <style scoped>
   /* css */
+  
   .clearAllContainer {
     width: 8.5rem;
     height: 50px;
